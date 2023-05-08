@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Umar Farooq</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de99ce3a75.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+
+                <i class="fas fa-times" onclick="closemenue()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenue()"></i>
+            </nav>
+            <div class="header-text">
+                <p>AI/ML Student</p>
+                <h1>Hi, I'm <span>Umar Farooq,</span><br>Computer Science Student</h1>    
+            </div>
+        </div>       
+    </div>
+    <!-- ----------about------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>My name is umar farooq and this is my intro
+                        i am form faslabad. that you gave  hjsdjhf hajgh d
+                        fdskh  skhd khds f hdksj f dsfhjs  hsj df bfdjshf 
+                        fhds jhf sd hjdhf hfud s hdfdsufy hfdsfhyu hjdhfu jhsfd  
+                        dfkjshfui djfhiud fjhui yfd kjh ufsd
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents "id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>UI/UX Designing Training at Gift University</li>
+                            <li><span>2019 - 2021</span><br>Object Oriented Programig & Data Structure</li>
+                            <li><span>2018 - 2019</span><br>Basic Computing and Self Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - Current</span><br>BSCS- Computer Science GIFT UNIVERSITY</li>
+                            <li><span>2016 - 2028</span><br>Intermidiate (FSC) CTTC</li>
+                            <li><span>2015 - 2016</span><br>SFC Matriculation GOVT.SCHOOL</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> 
+
+    <!-- ---------services-------------->>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>DSA</h2>
+                <p>You will learn java by using Data Structure, and also you we will teach
+                    how to design and ceate algorithms to solve a critical problem 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>Assembly Language</h2>
+                <p>You will ger solution of the all types of assembly problems and code also, 
+                    will be facilitated with Assembly Notes 
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database</h2>
+                <p>You will learn about database ans operating system, 
+                    we will provide you Notes and solutin of all type of problems
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+<!----------portfolio---- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3 >Data Structure</h3>
+                    <p>DSA is easy you will enjoy while learn it,You will get all java problems form hear...</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3 >Databse</h3>
+                    <p>Database is easy you will enjoy while learn it,You will get all problems form hear...</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3 >Assembly Language</h3>
+                    <p>Assembly Language is interested you will enjoy while learn it,You will get all problems form hear...</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!---------contact-------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> 212370006@gift.edu.pk</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 0341-5406690</p>
+                    <div class="social-icons">
+                        <a href="https://www/facebook.com/mumar.gujjar.p23"><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.jpg" download class="btn btn2">Download</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Wali. Made with <i class="fas fa-heart"></i> By Umar Gujjar</p>
+        </div>
+    </div> 
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link")
+                    document.getElementById(tabname).classList.add("active-tab");
+                }
+            </script>
+
+            <script>
+                var sidemeu = document.getElementById("sidemenu");
+
+                function openmenue(){
+                    sidemeu.style.right = "0";
+                }
+                function closemenue(){
+                    sidemeu.style.right = "-160px"
+                }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbz5L8PNZ70bK0DWXrHAuOlH35XiEyf9o4tl9SMxl7Pzrrhu0_zZ0fU-0JlLcCLKElVhNw/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent Successfully"
+                        setTimeout(function(){
+                            msg.innerHTML=""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+</body>
+</html> 
